@@ -14,7 +14,7 @@ This repository contains implementations of various option pricing models in Pyt
 3. **Black-Scholes Model**
    - `BlackScholes.ipynb`: Contains the implementation of the Black-Scholes option pricing model.
 
-   The Black-Scholes model is a continuous-time model used for pricing European-style options.
+   The Black-Scholes Model is used for pricing European options, which are options contracts that can only be exercised at the expiration date. The model assumes that stock prices follow a geometric Brownian motion and that the risk-free interest rate and volatility are constant over the option's lifetime. The code implementation includes the option to calculate the theoretical price of a call or put option based on what the user specifies.
 
 4. **Bjerksund-Stensland Model**
    - `BjerksundStensland.ipynb`: Contains the implementation of the Bjerksund-Stensland option pricing model.
