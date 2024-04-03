@@ -1,25 +1,33 @@
 ## Option Pricing Models
-
 This repository contains implementations of various option pricing models in Python. The models included are:
 
 1. **Binomial Model**
-   - The Binomial option pricing model is a simple lattice-based method for valuing options.
+   - `binomial_model.py`: Contains the implementation of the Binomial option pricing model.
+   
+   The Binomial model is based on the following formulas:
+
+   ![Binomial Model Equations](binomial_equations.png)
 
 2. **Trinomial Model**
-   - The Trinomial option pricing model extends the Binomial model by allowing for three possible price movements at each step.
+   - `trinomial_model.py`: Contains the implementation of the Trinomial option pricing model.
+
+   The Trinomial model uses the following equations:
+
+   ![Trinomial Model Equations](trinomial_equations.png)
 
 3. **Bjerksund-Stensland Model**
-   - The Bjerksund-Stensland option pricing model is an extension of the Black-Scholes model that incorporates early exercise features and barriers.
+   - `bjerkson_stensland_model.py`: Contains the implementation of the Bjerksund-Stensland option pricing model.
+
+   The Bjerksund-Stensland model equations are as follows:
+
+   ![Bjerksund-Stensland Model Equations](bjerkson_stensland_equations.png)
 
 4. **Black-Scholes Model**
-   - The Black-Scholes option pricing model is a widely-used model for valuing European options.
+   - `black_scholes_model.py`: Contains the implementation of the Black-Scholes option pricing model.
 
-## File Structure
+   The Black-Scholes model is defined by the following formulas:
 
-- `binomial_model.py`: Contains the implementation of the Binomial option pricing model.
-- `trinomial_model.py`: Contains the implementation of the Trinomial option pricing model.
-- `bjerkson_stensland_model.py`: Contains the implementation of the Bjerksund-Stensland option pricing model.
-- `black_scholes_model.py`: Contains the implementation of the Black-Scholes option pricing model.
+   ![Black-Scholes Model Equations](black_scholes_equations.png)
 
 
 
