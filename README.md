@@ -21,7 +21,10 @@ This repository contains implementations of various option pricing models in Pyt
 
    The Bjerksund-Stensland model is an extension of the Black-Scholes model that allows for the valuation of American options. It incorporates additional parameters such as the dividend yield, barrier levels, and cost of carrying the asset. The model is particularly useful for valuing options on assets that pay dividends or when there are constraints on when the option can be exercised. It takes into account the optimal exercise strategy for American options, which allows for the determination of whether early exercise is beneficial based on the underlying asset's price dynamics and the option's features. This model provides a more accurate valuation of American options compared to the Black-Scholes model, especially in the presence of dividends and pricing barriers.
 
-
-
+5. **Whitepapers**
+   - `BlackScholes_Huang2-3.pdf`: Pages 2-3 of "THE COMPLETE GUIDE TO Option Pricing Formulas SECOND EDITION" by ESPEN GAARDER HAUG which contains the theory and key equations utilized in the Black-Scholes Model. 
+   - `Binomial_Huang284-286.pdf`: Pages 284-286 of "THE COMPLETE GUIDE TO Option Pricing Formulas SECOND EDITION" by ESPEN GAARDER HAUG which contains the theory and key equations utilized in the Binomial Model.
+   - `BjerksundStensland_Huang104-106.pdf`: Pages `104-106 of "THE COMPLETE GUIDE TO Option Pricing Formulas SECOND EDITION" by ESPEN GAARDER HAUG which contains the theory and key equations utilized in the Bjerksund-Stensland Model.
+   - `Numerical-Methods-versus-Bjerksund-and-Stensland-Approximations-for-American-Options-Pricing-.pdf`: Comparative analysis of the Binomial, Trinnomial, and Bjerksund-Stensland models with logic used to construct the Binomial/Trinomial Models.
 
 
