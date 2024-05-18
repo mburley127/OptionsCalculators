@@ -11,12 +11,12 @@ This repository contains implementations of various option pricing models in Pyt
 
    The Black 76 Model modifies the Black-Scholes formula to handle the unique characteristics of futures contracts. Unlike the Black-Scholes model, which prices options on underlying assets like stocks, the Black 76 Model prices         options on the futures price of a commodity. The key difference lies in the treatment of the underlying asset and its discounting. <br/>
    The european call option value is computed as: <br/>
-         C = e^(−rT) * [FN(d_1​)−KN(d_2​)] <br/>
+      * C = e^(−rT) * [FN(d_1​)−KN(d_2​)] <br/>
    The european put option value is computed as: <br/>
-         P = e^(−rT) * [KN(−d_2​)−FN(−d_1​)] <br/>
+      * P = e^(−rT) * [KN(−d_2​)−FN(−d_1​)] <br/>
    where: <br/>
-         d_1​ = [ln(F/K)+(σ^2/2)T​] / (σ*sqrt(t)) <br/>
-         d_2 = d_1​ − σ*sqrt(T)
+      * d_1​ = [ln(F/K)+(σ^2/2)T​] / (σ*sqrt(t)) <br/>
+      * d_2 = d_1​ − σ*sqrt(T)
 
 4. **Bjerksund-Stensland Model**
    - `BjerksundStensland.ipynb`: Contains the implementation of the Bjerksund-Stensland option pricing model.
